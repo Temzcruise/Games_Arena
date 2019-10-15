@@ -1,0 +1,320 @@
+nav > ul > li > a:hover {
+    background-color: #111;
+}
+
+section{
+    height: 506.25px;
+    margin-top: 20px;
+}
+body{
+    background-color: white;
+}
+
+.jumbotron{
+  margin-top: 100PX;
+}
+
+#logo{
+    width: 30px;
+}
+.active{
+  background-color: black;
+}
+section{
+    height: 506.25px;
+}
+.bafta{
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.bafta img{
+    border-radius: 25%;
+    margin-right: 10px;
+    float: left;
+}
+
+.game_list {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.games_container {
+  flex: 1;
+  width: 9%;
+  margin: 2px;
+}
+.top_games {
+  margin: 12px;
+}
+.the_lead {
+  display: flex;
+  height: 500px;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+.col_1 {
+  flex: 2;
+  margin-right: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+
+.col_2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.row_1, .row_2 {
+  flex: 1;
+  padding: auto;
+  box-sizing: border-box;
+}
+.row_1 {
+  margin-bottom: 4px;
+}
+.row_img {
+  width: 100%;
+  height: 100%;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+#cod{
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 27%;
+}
+.games_container:hover{
+    border: 1px solid black;
+}
+
+
+#baftaimg{
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    margin-left: 15%;
+    border-radius: 25px;
+}
+#id_text{
+    width: 80%;
+    margin-left: 10%;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 16.666667%;
+}
+.winnerslist{
+        margin-left: 7.5%;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background: #111;
+  color: #fff;
+}
+#twitter:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+#twitter:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #twitter:hover{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index-content{
+    width: 100%;
+    position: relative;
+    background: url(../img/cod3.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.middle{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    border: 2px outset #80808059;
+}
+
+.footer{
+     padding-top: 20px;
+     background-color: #313438;
+}
+.footerr{
+     padding-top: 20px;
+     background-color: #313438;
+}
+.footer p, .footerr p{
+  color: white;
+}
+
+#padimg{
+    width: 70%;
+    margin-top: 15px; 
+    margin-left: 15%;
+  }
+
+#buildyours{
+
+}
+  #gaming{
+    width: 50%;
+    margin-top: 180px; 
+    margin-left: 25%;
+  }
+
+  .buildyours{
+    width: 70%;
+    margin-top: 180px; 
+    margin-left: 15%
+  }
+.mission{
+  background-color: white;
+}
+.index-content form{
+    margin: 0px auto;
+    display: block;
+    width: 80%;
+    color: black;
+}
+
+.index-content form input, textarea{
+    padding: 2px;
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.index-content form input[class="btn"]{
+   min-width: 50px;
+   width: 100px;
+   height: 40px;
+   margin-bottom: 20px;
+   background-color: #313438;
+   color: white;
+}
+
+.index-content form textarea{
+    height: 150px;
+}
+
+.index-content form div {
+    margin-bottom: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .col_1 {
+    flex: 1;
+  }
+
+
+  .col_2 {
+    flex: 0;
+  }
+  .row_2, .row_1 {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 800px){
+.game_list {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.games_container {
+  flex: 1;
+  width: 100%;
+  margin: 2px;
+}
+.the_lead{
+  height: 250px;
+}
+
+    
+}
+
+@media screen and (min-width: 950px){
+    .middle {
+        width: 750px;
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+    
+
+    h2{
+        font-size: 1.2em;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    }
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .footer{
+        padding: 0px 10px;
+    }
+
+}
