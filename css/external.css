@@ -2,16 +2,12 @@ nav > ul > li > a:hover {
     background-color: #111;
 }
 
-section{
-    height: 506.25px;
-    margin-top: 20px;
-}
 body{
     background-color: white;
 }
 
 .jumbotron{
-  margin-top: 100PX;
+  margin-top: 100px;
 }
 
 #logo{
@@ -20,14 +16,12 @@ body{
 .active{
   background-color: black;
 }
-section{
-    height: 506.25px;
-}
+
 .bafta{
     margin-left: 12.5%;
     width: 75%;
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 }
 .bafta img{
     border-radius: 25%;
@@ -47,27 +41,24 @@ section{
   width: 9%;
   margin: 2px;
 }
+.navbar-toggler{
+  color: white;
+}
 .top_games {
   margin: 12px;
 }
 .the_lead {
   display: flex;
-  height: 500px;
   box-sizing: border-box;
   margin-top: 4px;
 }
 
-.navbar-toggler{
-  color: white;
-}
-
 .col_1 {
-  flex: 2;
+  flex: 2.5;
   margin-right: 4px;
   height: 100%;
   width: 100%;
 }
-
 
 .col_2 {
   flex: 1;
@@ -77,7 +68,6 @@ section{
 }
 .row_1, .row_2 {
   flex: 1;
-  padding: auto;
   box-sizing: border-box;
 }
 .row_1 {
@@ -86,7 +76,6 @@ section{
 .row_img {
   width: 100%;
   height: 100%;
-  height: 250px;
 }
 
 div.desc {
@@ -198,9 +187,8 @@ p{
     margin-left: 15%;
   }
 
-#buildyours{
+  
 
-}
   #gaming{
     width: 50%;
     margin-top: 180px; 
